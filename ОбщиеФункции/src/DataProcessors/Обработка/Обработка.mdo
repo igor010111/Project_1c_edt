@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dda3c170-4971-4640-aee5-a29c47f73fab">
+  <producedTypes>
+    <objectType typeId="4afb8d17-f5ae-45ad-bffc-d98fed7881c8" valueTypeId="6cae6249-1f61-4f90-8d4a-1b5066a7201e"/>
+    <managerType typeId="c70e38ec-e541-4170-902f-7b304e69ed52" valueTypeId="cffaf5ea-bb8a-408f-9df1-5bae33bcec06"/>
+  </producedTypes>
+  <name>Обработка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Обработка.Form.ОтборПоНастройкамСКДВФорме</defaultForm>
+  <forms uuid="862b4bbc-8a97-4712-b560-9146865707e9">
+    <name>ОтборПоНастройкамСКДВФорме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор по настройкам СКДВФорме</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0c4bf8f4-a448-4d8e-8f12-0aa6e8d52730">
+    <name>МакетКомпоновкиДанныхДляОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет компоновки данных для отбора</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>
